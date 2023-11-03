@@ -1,0 +1,283 @@
+/*Header*/
+#header {
+    background-color: white;
+}
+
+#header ul {
+    list-style: none;
+}
+
+#header a {
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#header .header-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .header-logo a:first-child {
+    margin-right: 15px;
+    color: #333333;
+    transition: all .3s ease-in-out;
+}
+
+#header .header-logo .logo-white,
+#header .header-body .logo-dark {
+    padding: 20px 0;
+    min-width: 40px;
+}
+
+#header .header-body .logo-dark {
+    display: none;
+}
+
+#header .header-logo a:first-child::before {
+    font: var(--fa-font-solid);
+    content: "\f550";
+}
+
+#header .header-logo .logo-white img,
+#header .header-body .logo-dark img {
+    max-width: 100%;
+    padding: 10px 0;
+    max-height: 84px;
+    object-fit: contain;
+    min-width: 400px;
+    height: 100px;
+}
+
+#header .header-social {
+    display: flex;
+    align-items: center;
+}
+
+#header .header-social a {
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 50%;
+    margin-right: 9px;
+    color: #333333;
+    transition: all .3s ease-in-out;
+}
+
+#header .header-social a:hover,
+#header .header-logo a:first-child:hover,
+#header .header-social_mobile a:hover {
+    color: #d1142e !important;
+    transition: all .3s ease-in-out;
+}
+
+#header .header-social .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#header .header-social .social:before {
+    font-size: 19px;
+}
+
+#header .header-social .icon-facebook:before {
+    font: var(--fa-font-brands);
+    content: "\f39e";
+}
+
+#header .header-social .icon-instagram:before {
+    font: var(--fa-font-brands);
+    content: "\f16d";
+}
+
+#header .header-social .icon-youtube:before {
+    font: var(--fa-font-brands);
+    content: "\f167";
+}
+
+#header .header-social .icon-tiktok:before {
+    font: var(--fa-font-brands);
+    content: "\e07b";
+}
+
+#header .header-social_mobile {
+    display: none;
+}
+
+#header .header-social_mobile a {
+    color: white;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 941px) {
+    #header {
+        background-color: #141c2b;
+    }
+
+    #header .header-logo .logo-white {
+        display: none;
+    }
+
+    #header .header-body .logo-dark {
+        display: inherit;
+        padding: 0;
+    }
+
+    #header a {
+        color: white !important;
+    }
+
+    #header .header-social {
+        display: none;
+    }
+
+    #header .header-social_mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #header .header-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    #header .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    #header .header-body .logo-dark img {
+        max-height: 70px;
+        min-width: auto;
+    }
+}
+
+/*End Header*/
+
+main .masthead {
+    background-image: url(../images/bgshort4.jpg) !important;
+    height: 300px;
+    filter: blur(0) brightness(60%);
+    margin: 75px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding: 0;
+    background: no-repeat 50%;
+    background-color: #6c757d;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+}
+
+main .blockquote {
+    padding: 0 0 15px 15px;
+    border-left: 2px solid rgb(70,130,180);
+    border-bottom: 2px solid rgb(70,130,180);
+}
+
+main .main-list {
+    padding: 20px;
+    background-color: #EBF6FF;
+}
+
+main .main-list li {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+main .def-img {
+    width: 80%;
+    margin: 15px auto;
+    display: block;
+}
+
+main .text-under-img {
+    background-color: #EBF6FF;
+    padding: 10px;
+}
+
+main .prod-img {
+    display: block;
+    margin: 15px auto;
+}
+
+main .price-red {
+    color: red;
+    font-weight: bold;
+}
+
+main .order-coupon .coupon-caption {
+    display: flex;
+    align-items: center;
+}
+
+main .order-coupon {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main .order-coupon .coupon-caption img {
+    width: 78px;
+}
+
+main .order-coupon .coupon-caption span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main .order-coupon .coupon-body {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .order-coupon .coupon-body .coupon-price {
+    max-width: 200px;
+    background: url("../images/prog3.jpg") no-repeat;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+}
+
+main .order-coupon .coupon-body .coupon-price .old-price {
+    text-decoration: line-through;
+}
+
+main .order-coupon .coupon-body .coupon-price .old-price,
+main .order-coupon .coupon-body .coupon-price .new-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main .order-coupon .coupon-body .coupon-price .new-price,
+main .text-red {
+    color: red;
+}
+
+main .order-coupon .coupon-body .coupon p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+main .danger-block {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid brown;
+    background-color: rgba(255, 119, 119, 0.5);
+}
+
+main .danger-block p {
+    padding: 10px 0;
+}
+
+main .danger-block a {
+    color: red;
+}
+
