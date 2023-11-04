@@ -161,7 +161,6 @@ main .masthead {
     background-image: url(../images/bgshort4.jpg) !important;
     height: 300px;
     filter: blur(0) brightness(60%);
-    margin: 75px;
     margin-right: 0;
     margin-bottom: 50px;
     margin-left: 0;
@@ -332,12 +331,14 @@ main .danger-block a {
 }
 
 .info-blue {
+    text-align: center;
     display: block;
     color: black;
     font-size: 20px;
     text-decoration: none;
     margin: 20px 0;
     transition: all .5s ease;
+    font-weight: bold;
 }
 
 .info-blue:hover {
@@ -439,4 +440,103 @@ footer a {
 footer a:hover {
     color: #0299ff;
     transition: all .2s ease-in-out;
+}
+
+
+/*Aside*/
+
+aside article .article-card {
+    display: flex;
+    border-bottom: .1px solid #cacaca;
+    padding: 0 25px 30px 0;
+    margin-bottom: 20px;
+}
+
+aside article .article-card .article-img {
+    display: block;
+    width: 110px;
+    height: 76px;
+    margin-right: 18px;
+    min-width: 30%;
+}
+
+aside article .article-card .article-img span.art-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover !important;
+}
+
+aside article .article-card .article-img span.art-img-1{
+    background: url("../images/aside/img1.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-2 {
+    background: url("../images/aside/img2.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-3 {
+    background: url("../images/aside/img3.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-4 {
+    background: url("../images/aside/img4.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-5 {
+    background: url("../images/aside/img5.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-6 {
+    background: url("../images/aside/img6.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-7 {
+    background: url("../images/aside/img7.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-8 {
+    background: url("../images/aside/img8.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-9 {
+    background: url("../images/aside/img9.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-10 {
+    background: url("../images/aside/img10.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-11 {
+    background: url("../images/aside/img11.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-12 {
+    background: url("../images/aside/img12.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-13 {
+    background: url("../images/aside/img13.jpg") no-repeat center;
+}
+
+aside article .article-card .article-img span.art-img-14 {
+    background: url("../images/aside/img14.jpg") no-repeat center;
+}
+
+
+aside article .article-card .article-content {
+    display: flex;
+    flex-direction: column;
+}
+
+aside article .article-card .article-content a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+aside article .article-card .article-content span {
+    display: block;
 }
