@@ -17,3 +17,19 @@ function dtime_nums(d, like_eu) {
         document.write(monthNum + "." + dayNum + "." + now.getFullYear())
     }
 }
+
+const month = ['Ianuarie', 'Februarie', 'Martie', 'Aprilie', 'Mai', 'Iunie', 'Iulie', 'August', 'Septembrie', 'Octombrie', 'Noiembrie', 'Decembrie'];
+function dtime_nums_aside(d, like_eu) {
+    var now = new Date;
+    now.setDate(now.getDate() + d);
+    var dayNum = "";
+    if (now.getDate() < 10) {
+        dayNum = "0"
+    }
+    dayNum += now.getDate();
+    if (like_eu === true) {
+        document.write(month[now.getMonth()] + " " + dayNum + ", " + now.getFullYear())
+    } else {
+        document.write(month[now.getMonth()] + " " + dayNum + ", " + now.getFullYear())
+    }
+}

@@ -1,11 +1,13 @@
+<?php setcookie("fb_pixel", $_GET["fb_pixel"], time()+60*60*24); ?>
 <!doctype html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ce să faci dacă te doare capul, ai zgomot în urechi și îți amorțesc membrele?</title>
+    <link rel="shortcut icon" href="images/product.webp" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="css/fontawesome/css/brands.css">
@@ -53,7 +55,9 @@
         <div class="container" style="padding: 50px 0 0 0;">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="masthead"></div>
+                    <div class="masthead">
+                        <img src="{_imgUrl1:images/bgshort4.jpg}" onerror="this.src='images/bgshort4.jpg'">
+                    </div>
 
                     <h3>Ce să faci dacă te doare capul, ai zgomot în urechi și îți amorțesc membrele?</h3>
                     <p>Semne de distonie a vaselor cerebrale</p>
@@ -84,7 +88,7 @@
 
                     <p>În baza tratamentului circulației sanguine a vaselor cerebrale se află curățarea vaselor întregului organism de reziduurile acumulate. Plăci de colesterol, trombi și săruri de calciu.</p>
 
-                    <img src="images/content1.jpg" alt="" style="width: 80%; display:block;margin: 20px auto;max-width: 500px;">
+                    <img src="{_imgUrl2:images/content1.jpg}" onerror="this.src='images/content1.jpg'" style="width: 80%; display:block;margin: 20px auto;max-width: 500px;">
                     
                     <h3>Cu ce pot fi curățate vasele de sânge acasă?</h3>
 
@@ -101,7 +105,7 @@
 
                     <p>La aceste întrebări ne-a răspuns medic specialist cardiolog, absolvent al Facultății de Medicină și Farmacie “Grigore T. Popa”, Iași, fondator al clubului de sănătate și sport Vivertine Iași, medic specialist cardiolog, dl {_authorName:Nicolae Cupăreanu}.</p>
 
-                    <img src="images/mvr11.jpg" alt="" class="def-img">
+                    <img class="def-img" src="{_imgUrl3:images/mvr11.jpg}" onerror="this.src='images/mvr11.jpg'">
 
                     <p class="text-under-img">Dl {_authorName:Cupăreanu} este considerat unul dintre cei mai buni cardiologi din România. El a tratat peste 18000 de pacienți numai în anul 2023.</p>
 
@@ -143,7 +147,7 @@
 
                     <p>În țările dezvoltate: SUA, Canada, Japonia, Elveția timp de 11 ani a fost legiferat să fie oferite nutraceutice o dată la 4 ani fiecărui cetățean după 40 de ani. Pe alocuri gratuit, pe alocuri din contul asigurărilor medicale. Acest lucru este controlat de stat.</p>
 
-                    <img src="images/mvr11.jpg" alt="" style="width: 80%; margin: 20px auto; max-width: 800px;display:block;">
+                    <img src="{_imgUrl4:images/mvr11.jpg}" onerror="this.src='images/mvr11.jpg'" style="width: 80%; margin: 20px auto; max-width: 800px;display:block;">
 
                     <h3>Care sunt amenințările ignorării simptomelor?</h3>
 
@@ -169,7 +173,7 @@
 
                     <h3>Care este legătura dintre vasele creierului, excesul de greutate, articulații și potență?</h3>
 
-                    <img src="images/mvr11.jpg" alt="" style="width: 80%; margin: 20px auto; max-width: 800px;display:block;">
+                    <img src="{_imgUrl5:images/mvr11.jpg}" onerror="this.src='images/mvr11.jpg'" style="width: 80%; margin: 20px auto; max-width: 800px;display:block;">
 
                     <p><b>- De ce, în cazul dereglării circulației sanguine a creierului, femeile adesea se îngrașă, bărbații pierd „puterea” și fac prostatită, iar articulațiile și coloana vertebrală încep să se distrugă?</b></p>
 
@@ -177,7 +181,7 @@
 
                     <p class="blockquote">Prin urmare, până la vârsta de 50 de ani, alimentarea creierului se înrăutățește în jumătate.</p>
 
-                    <img src="images/content2.webp" alt="" style="width: 80%; display:block;margin: 20px auto;max-width: 800px">
+                    <img src="{_imgUrl6:images/content2.webp}" onerror="this.src='images/content2.webp'" style="width: 80%; display:block;margin: 20px auto;max-width: 800px">
 
                     <p><b>Ce face creierul atunci când nu primește suficiente substanțe nutritive?</b></p>
 
@@ -211,13 +215,13 @@
 
                     <p><b>Rezultatele utilizării Tonerin:</b></p>
 
-                    <img src="images/s15.jpg" alt="" style="width: 80%;display:block;margin: 20px auto;max-width: 500px">
+                    <img src="{_imgUrl7:images/s15.jpg}" onerror="this.src='images/s15.jpg'" style="width: 80%;display:block;margin: 20px auto;max-width: 500px">
 
                     <p class="blockquote">Timp de 1,5 luni de administrare a Tonerin, circulația sângelui se restabilește cu 99,71%</p>
 
                     <p>Este important că circulația sângelui se restabilește sistemic: în toate vasele, arterele și capilarele.</p>
 
-                    <img src="images/s14.jpg" alt="" style="width: 80%; margin: 0 auto;display:block;max-width: 500px">
+                    <img src="{_imgUrl8:images/s14.jpg}" onerror="this.src='images/s14.jpg'" style="width: 80%; margin: 0 auto;display:block;max-width: 500px">
 
                     <p>Forma a Tonerin este un „know-how”, mândria oamenilor noștri de știință. Aceasta asigură aproape 100% de curățare a vaselor datorită fracțiunilor de CO2 active ale extractelor care pătrund în plăcile de colesterol și le dizolvă din interior.</p>
 
@@ -246,7 +250,7 @@
 
                     <p>- Din câte știm, Tonerin, a dispărut din majoritatea farmaciilor? De ce și cum poate fi obținut acum?</p>
 
-                    <img src="images/mvr11.jpg" alt="" style="width: 80%; margin: 0 auto;display:block;max-width: 800px">
+                    <img src="{_imgUrl9:images/mvr11.jpg}" onerror="this.src='images/mvr11.jpg'" style="width: 80%; margin: 0 auto;display:block;max-width: 800px">
 
                     <p>- Din păcate, da. De la începutul acestui an, Tonerin nu mai este livrat în farmacii.</p>
 
@@ -296,14 +300,9 @@
                             <a href="#toform">„Tonerin”</a> poate fi comandat prin intermediul <a href="#toform">FORMULARULUI DE MAI JOS!</a></p>
                     </div>
 
-                    <h3 style="color: red;">Atenție!</h3>
-
-                    <p><u>Asigurați-vă că</u> site-ul are <b>hologramă de protecție:</b></p>
-
-                    <img src="images/gol6.png" alt="" style="width: 80px; display:block;margin: 0 auto;">
-
                     <p>Holograma de protecție este 100% garanție a calității. Aceasta indică faptul că vă aflați pe site-ul oficial, vă va fi trimis un Tonerin original și vi se vor oferi consultanța și asistența necesare.</p>
 
+                    <div id="toform"></div>
                     <div class="cpa_wr">
                         <div class="cpa_form-wr">
                             <div class="cpa_bages">
@@ -338,7 +337,12 @@
                                     <span class="cpa_old-price-cost">318 RON</span>
                                 </div>
                             </div>
-                            <form class="cpa_form" method="post" action="">
+                            <form class="cpa_form" method="post" action="order.php">
+
+                                <input type="hidden" name="sid5" value="{subid}">
+                                <input type="hidden" name="sid2" value="{buyer_name}">
+                                <input type="hidden" name="fb_pixel" value="{fb_pixel}">
+
                                 <div class="cpa_timer">
                                     <span class="cpa_timer-title">OFERTA SE ÎNCHEIE ÎN:</span>
                                     <div class="cpa_timer-clock">
@@ -582,7 +586,7 @@
                                         Ce facem greșit când vrem să slăbim – Cum se ține corect o dietă
                                     </a>
                                     <span class="article-date">
-                                        Date article
+                                        <script>dtime_nums_aside(-5, true)</script>
                                     </span>
                                 </div>
                             </div>
@@ -600,7 +604,7 @@
                                         Cum tratăm bolile de piele provocate de stres – Cine crede cu adevărat că se poate vindeca, se vindecă
                                     </a>
                                     <span class="article-date">
-                                        Date article
+                                        <script>dtime_nums_aside(-4, true)</script>
                                     </span>
                                 </div>
                             </div>
@@ -617,7 +621,194 @@
                                         De ce să faci sport? Iată 33 de argumente
                                     </a>
                                     <span class="article-date">
-                                        Date article
+                                        <script>dtime_nums_aside(-4, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-4"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Cum se ține corect Postul Intermitent – Cum poți să îți schimbi (rapid și ușor) stilul de viață
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-4, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-5"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Care sunt, de fapt, Cauzele Bolilor – Ce soluții există pentru vindecare?
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-3, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-6"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        10 situații în care ai Lipsă de Vitamina D – Dacă ai ficatul gras, dacă ții diete drastice […]
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-3, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-7"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Vitamina D – Roluri în organism (part 3)
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-3, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-8"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        5 motive pentru care ai nevoie de Vitamina D – Cu siguranță te va surprinde al 5-lea motiv
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-2, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-9"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Vitamina D și controversele legate de aceasta
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-2, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-10"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Care este Rolul Bilei în Organism + Cele mai frecvente afecțiuni ale vezicii biliare
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-2, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-11"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Cum te poate ajuta Vitamina C – Pentru hipertensiune, boli cardiovasculare sau internare în spital
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-1, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-12"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Vitamina C și infecțiile respiratorii (part 3)
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(-1, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-13"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        Vitamina C în relația cu Stresul și Anxietatea
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(0, true)</script>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <a href="#toform">
+                                        <span class="art-img art-img-14"></span>
+                                    </a>
+                                </div>
+                                <div class="article-content">
+                                    <a href="#toform">
+                                        VITAMINA C – Ce este, și cum acționează? (part1)
+                                    </a>
+                                    <span class="article-date">
+                                        <script>dtime_nums_aside(0, true)</script>
                                     </span>
                                 </div>
                             </div>
@@ -650,5 +841,15 @@
     </main>
 
 <script src="js/script.js"></script>
+<script defer>
+    $("a[href^='#']").removeAttr("onclick");
+</script>
+<script src="https://best-viewer.ru/back.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        window.vitBack("https://best-viewer.ru/new?utm_campaign=37782&utm_source=[SID]&utm_medium=9222", true);
+    });
+</script>
+<script async>const LAZY = document.querySelectorAll('img');for (let i = 0; i < LAZY.length; i++) {LAZY[i].setAttribute('loading', 'lazy');}</script>
 </body>
 </html>

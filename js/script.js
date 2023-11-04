@@ -22,3 +22,10 @@ function tick() {
 }
 
 start_timer();
+
+$(function () {
+    $("a[href^='#']").click(function () {
+        $("html, body").animate({scrollTop: $("#toform").offset().top + "px"});
+        return false;
+    });
+});
