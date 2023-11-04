@@ -1,6 +1,7 @@
 /*Header*/
 #header {
     background-color: white;
+    border-bottom: 1px solid #333333;
 }
 
 #header ul {
@@ -281,3 +282,161 @@ main .danger-block a {
     color: red;
 }
 
+.comments {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.comment-header {
+    padding: 10px 0;
+    border-bottom: 1px solid #333333;
+}
+
+.block-comment {
+    padding: 20px 0;
+    border-bottom: 1px solid #333333;
+}
+
+.comment-ava {
+    display: flex;
+    align-items: center;
+}
+
+.comment-ava img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comment-ava span {
+    margin-left: 15px;
+}
+
+.comment-body {
+    margin-top: 10px;
+}
+
+.comment-body p::before {
+    content: "";
+    margin-left: 20px;
+}
+
+.info-block {
+    width: 50%;
+    margin: 15px auto 0;
+}
+
+.info-pic {
+    display: block;
+    text-align: center;
+}
+
+.info-blue {
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    transition: all .5s ease;
+}
+
+.info-blue:hover {
+    color: #0299FF;
+    transition: all .5s ease-in-out;
+}
+
+.info-button {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 15px 0 rgba(129,150,160,.45);
+    border-radius: 5px;
+    background-color: #0299ff;
+    transition: all .15s ease-in-out;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.info-button:hover {
+    background-color: #007ac8;
+}
+
+.social-bottom {
+    text-align: center;
+}
+
+.social-bottom span {
+    font-size: 12px;
+    position: relative;
+    bottom: 20px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-link a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 9px;
+    color: white;
+    transition: all .3s ease-in-out;
+    background-color: #212529;
+}
+
+.social-link a:hover {
+    background-color: #0299ff;
+}
+
+.social-link a .social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link a .social-twitter::before {
+    font: var(--fa-font-brands);
+    content: "\f099";
+}
+
+.social-link a .social-facebook::before {
+    font: var(--fa-font-brands);
+    content: "\f39e";
+}
+
+.social-link a .social-github::before {
+    font: var(--fa-font-brands);
+    content: "\f09b";
+}
+
+footer {
+    width: 70% !important;
+    margin: 0 auto;
+    padding: 50px 0 20px 0;
+    text-align: center;
+    color: #A12000;
+}
+
+footer a {
+    color: #A12000;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+footer a:hover {
+    color: #0299ff;
+    transition: all .2s ease-in-out;
+}
